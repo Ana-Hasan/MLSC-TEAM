@@ -92,6 +92,7 @@ body {
 }
 
 .card {
+    height: 260px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -119,6 +120,7 @@ body {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(79, 127, 223, 0.2);
     border-color: rgba(79, 127, 223, 0.3);
+    transition: 0.5s;
 }
 
 .card:hover::before {
@@ -137,6 +139,7 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
+    transition: 0.5s;
 }
 
 .avatar {
@@ -242,7 +245,9 @@ body {
 
 .card:hover .description {
     display: block;
+    cursor: pointer;
     opacity: 1;
+    transition: 0.9s ease;
 }
 .avatar {
     width: 80px;
