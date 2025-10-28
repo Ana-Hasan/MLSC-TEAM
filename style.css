@@ -41,7 +41,7 @@ line-height: 1.6;
 .avatar img {width: 100%;height: 100%;object-fit: cover;display: block;}
 .name {font-size: 1rem;font-weight: 600;margin-bottom: 0.5rem;color: rgba(0,162,255,0.864);}
 .role {color: var(--white-secondary);font-weight: 400;font-size: 0.8rem;}
-.description {display: none;font-size: 0.8rem;color: var(--white-secondary);margin-top: 0.5rem;opacity: 0;}
+.description {display: none;font-size: 0.7rem;color: var(--white-secondary);margin-top: 0.5rem;opacity: 0;}
 .insta-link {display: none;font-size: 1.2rem;color: #e4405f;margin-top: 0.8rem;text-decoration: none;}
 .card:hover .name,.card:hover .role {display: none;}
 .card:hover .description,.card:hover .insta-link {display: block;opacity: 1;}
